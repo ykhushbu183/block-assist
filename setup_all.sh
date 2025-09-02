@@ -32,9 +32,9 @@ eval "$(pyenv virtualenv-init -)"
 
 sudo apt install -y make libxml2-dev libxmlsec1-dev
 
-# --- Python 3.10 ---
-~/.pyenv/bin/pyenv install -s 3.10
-~/.pyenv/versions/3.10/bin/pip install --upgrade pip psutil readchar
+# --- Python 3.10.18 ---
+~/.pyenv/bin/pyenv install -s 3.10.18
+~/.pyenv/versions/3.10.18/bin/pip install --upgrade pip psutil readchar
 
 # --- cuDNN ---
 wget -q https://developer.download.nvidia.com/compute/cudnn/9.11.0/local_installers/cudnn-local-repo-ubuntu2204-9.11.0_1.0-1_amd64.deb
