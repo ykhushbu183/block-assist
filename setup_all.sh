@@ -51,6 +51,4 @@ grep -qxF "$LINE" "$HOME/.bashrc" || echo "$LINE" >> "$HOME/.bashrc"
 source "$HOME/.bashrc"
 
 # --- Run app ---
-~/.pyenv/versions/3.10.18/bin/python run.py
-
-echo "==> BlockAssist setup finished"
+python run.py
